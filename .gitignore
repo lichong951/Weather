@@ -7,3 +7,10 @@
 /build
 /captures
 .externalNativeBuild
+
+libs/
+src/main/java/top/lc951/weather/db/
+src/main/java/top/lc951/weather/gson/
+src/main/java/top/lc951/weather/service/
+src/main/java/top/lc951/weather/util/
+src/main/res/drawable/
