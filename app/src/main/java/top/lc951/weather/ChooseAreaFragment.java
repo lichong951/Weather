@@ -137,6 +137,10 @@ public class ChooseAreaFragment extends Fragment {
                 } else if (currentLevel == LEVEL_CITY) {
                     selectedCity = cityList.get(i);
                     queryCounties();
+                }else if(currentLevel==LEVEL_COUNTY) {
+                    String weatherId=countyList.get(i).getWeatherId();
+                    WeatherActivity.actionStartForWeatherId(getActivity(),weatherId);
+                    getActivity().finish();
                 }
             }
         });
