@@ -20,5 +20,16 @@
         android:layout_centerVertical="true"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content" />
+    <Button
+        android:id="@+id/nav_button"
+        android:layout_marginLeft="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:text="HOME"
+        android:textColor="@color/white"
+        android:background="@color/black_8000"
+        android:textSize="8sp"
+        android:layout_width="30dp"
+        android:layout_height="30dp" />
 
 </RelativeLayout>
